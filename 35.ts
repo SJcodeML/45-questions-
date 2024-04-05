@@ -4,15 +4,16 @@
 //  such as Any of these animals would make a great pet!
 
 
-let pet_animal: string[] = ["DOG" , "cat", "Goat"  ]
+let animals1: string[] = ["Cat", "Dog", "Rabbit"];
+let messages1: string[] = [
+    "I really like kittens and cats",
+    "I don't like dogs at all",
+    "Awwwwwwwwww! Rabbits are cute"
+];
 
-
-
-
-
-for (let animal of pet_animal) {
-    console.log(`A ${animal} would make a great pet`)
-}
+animals1.forEach((animal, index) => {
+    console.log(`${animal}: ${messages1[index]}`);
+});
 
 console.log("Dogs are known for their loyalty and playful nature, making them popular companions for people of all ages. Cats are independent and curious animals that often form strong bonds with their owners. Rabbits are gentle and social creatures that can make wonderful pets with proper care and attention."
 )

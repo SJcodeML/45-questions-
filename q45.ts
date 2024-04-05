@@ -1,21 +1,18 @@
-// Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names in a array, 
-// and then use a for loop to print the name of each pizza.
-// • Modify your for loop to print a sentence using the name of the pizza instead of printing just the name of the pizza. 
-// For each pizza you should have one line of output containing a simple statement like I like pepperoni pizza.
 
-// • Add a line at the end of your program, outside the for loop, that states how much you like pizza. 
-// The output should consist of three or more lines about the kinds of pizza you like and then an additional sentence, such as I really love pizza!
-
-
-
-let fav_Pizza: string[] = ["Tikka" , "Malai boti", "fajita" ,"cheese" ]
+// Cars: Write a function that stores information about a car in a Object. The function should always receive a manufacturer and a model 
+// name. It should then accept an arbitrary number of keyword arguments. Call the function with the required information and two other name-
+// value pairs, such as a color or an optional feature. Print the Object that’s returned to make sure all the information was stored correctly.
 
 
 
 
-
-for (let pizza of fav_Pizza) {
-    console.log(`I like ${pizza} pizza`)
+function createCar(manufacturer: string, model: string, options: { [key: string]: any }): object {
+    const car: { [key: string]: any } = { manufacturer, model, ...options };
+    return car;
 }
 
-console.log("sjkdhoisjdckdiojskldckdjsjkdkcnklsdjcklsdjjdfni8opff , I really love pizzzaa")
+// Call the function with required information and additional properties
+const myCar = createCar("Toyota", "Camry",  { color: "blue", year: 2022});
+
+// Print the returned object
+console.log(myCar);

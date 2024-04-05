@@ -1,15 +1,15 @@
 "use strict";
 // Seeing the World: Think of at least five places in the world you’d like to visit.
-/////// • Store the locations in a array. Make sure the array is not in alphabetical order.
+// • Store the locations in a array. Make sure the array is not in alphabetical order.
 Object.defineProperty(exports, "__esModule", { value: true });
-// ////• Print your array in its original order.
-////// • Print your array in alphabetical order without modifying the actual list.
-////// • Show that your array is still in its original order by printing it.
-///////// • Print your array in reverse alphabetical order without changing the order of the original list.
-//////// • Show that your array is still in its original order by printing it again.
-////// • Reverse the order of your list. Print the array to show that its order has changed.
-/////// • Reverse the order of your list again. Print the list to show it’s back to its original order.
-////// • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
+//• Print your array in its original order.
+// • Print your array in alphabetical order without modifying the actual list.
+// • Show that your array is still in its original order by printing it.
+// • Print your array in reverse alphabetical order without changing the order of the original list.
+// • Show that your array is still in its original order by printing it again.
+// • Reverse the order of your list. Print the array to show that its order has changed.
+// • Reverse the order of your list again. Print the list to show it’s back to its original order.
+// • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 //• Store the locations in a array. Make sure the array is not in alphabetical order.
 let favoPlaces = ["Makkah", "Madina", "Jordan", "Egypt", "Iran", "Iraq", "China", "Japan", "Toronto"];
@@ -25,14 +25,12 @@ const reversedCopy = [...favoPlaces].sort().reverse();
 console.log(reversedCopy);
 // • Show that your array is still in its original order by printing it again.
 console.log(favoPlaces);
-//issue • Reverse the order of your list again. Print the list to show it’s back to its original order.
-// const reversedCopy2 = [...reversedCopy].sort().reverse();
-// console.log(reversedCopy2 );
+// • Reverse the order of your list again. Print the list to show it’s back to its original order.
 favoPlaces.reverse();
 console.log("Reversed order:", favoPlaces);
-//issue2 • Reverse the order of your list again. Print the list to show it’s back to its original order.
+// • Reverse the order of your list again. Print the list to show it’s back to its original order.
 favoPlaces.reverse();
-console.log("Original order:", favoPlaces);
+console.log("Again reversed:", favoPlaces);
 //• Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 favoPlaces.sort();
 console.log(favoPlaces);

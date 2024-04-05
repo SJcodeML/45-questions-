@@ -20,3 +20,8 @@ console.log(city1); // Lahore, Pakistan
 console.log(city2); // New York, USA
 console.log(city3); // London, United Kingdom
 
+
+
+
+
+
