@@ -2,15 +2,11 @@
 // message and store it in a new variable called message. Print your message.
 
 
-// // ANSWER NO : 5
+// ANSWER NO : 5
 
-// //Approach 1 ;
+
 // let authorname:string = "Sidra Jabin";
 // let quote:string = "Don't wait for the opportunities, BE smart enough to ' MAKE the OPPORTUNITIES ' "
 // console.log(authorname + " Once Said , " + quote)
 
 
-// //Approach 2 ;
-const authorname2:string = "Sidra Jabin";
-const quote2: string = `${authorname2} Once Said , "Don't wait for the opportunities, BE smart enough to ' MAKE the OPPORTUNITIES"" '`
-console.log(quote2);

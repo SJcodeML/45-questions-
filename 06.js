@@ -4,7 +4,8 @@
 // is displayed. Then print the name after striping the white spaces.
 Object.defineProperty(exports, "__esModule", { value: true });
 // Storing the person's name with whitespace characters
-let name = "   John Doe\n";
+let name = "\t\n SIDRA \t\n";
+// let name: string ="          SIDRA\n";
 // Printing the name with whitespace
 console.log("Name with whitespace:");
 console.log(name);

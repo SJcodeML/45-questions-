@@ -38,7 +38,7 @@ console.log(slicedGuest)
 
 // // • Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 
-const replacement: string[] = ["\nHAnif", "\nAsim" , "\nRashida,\n"];
+const replacement: string[] = ["HAnif", "Asim" , "Rashida,"];
 
 const guestc: string[] = ["Aisha", "Marium", "Zainab", "Misho", "A.Subha", "Khadija"];
 

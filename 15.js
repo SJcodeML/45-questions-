@@ -16,7 +16,7 @@ console.log(guest.slice(1, 4) + " " + " Cannot come due to his problems"); // .s
 const slicedGuest = guest.slice(1, 4);
 console.log(slicedGuest);
 // // • Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
-const replacement = ["\nHAnif", "\nAsim", "\nRashida,\n"];
+const replacement = ["HAnif", "Asim", "Rashida,"];
 const guestc = ["Aisha", "Marium", "Zainab", "Misho", "A.Subha", "Khadija"];
 console.log("Original guest list:", guestc);
 guestc.splice(1, 3, ...replacement);

@@ -3,7 +3,8 @@
 // is displayed. Then print the name after striping the white spaces.
 
 // Storing the person's name with whitespace characters
-let name: string = "   John Doe\n";
+let name: string = "\t\n SIDRA \t\n";
+// let name: string ="          SIDRA\n";
 
 // Printing the name with whitespace
 console.log("Name with whitespace:");

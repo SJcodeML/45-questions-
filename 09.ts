@@ -5,6 +5,6 @@
 
 
 
-let favNum2:string = "9";
+let favNum2:number = 9;
 console.log("My favorite Number is : " + favNum2)
 

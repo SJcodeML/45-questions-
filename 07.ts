@@ -6,7 +6,7 @@
 
 
 //Approach : 1 Simple and easiest One 
-console.log(`Addition: ${5+3} `)
-console.log(`Subtraction: ${14-6} `)
-console.log(`Multiplication: ${2*4} `)
-console.log(`Division: ${64/8} `)
+console.log(`Addition: 5+3 =  ${5+3} `)
+console.log(`Subtraction: 14-6 = ${14-6} `)
+console.log(`Multiplication: 2*4 = ${2*4} `)
+console.log(`Division: 64/8 =  ${64/8} `)

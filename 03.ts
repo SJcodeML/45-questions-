@@ -12,3 +12,10 @@ console.log("UpperCase : " , name.toUpperCase())
 // Titlecase (capitalize each word)
 const nameTitlecase: string =name.replace(/\b\w/g, firstLetter => firstLetter.toUpperCase());
 console.log("Titlecase:", nameTitlecase);
+
+// So, when used together in the regular expression /\b\w/g, it matches the first letter of each word in a string.
+
+
+
+// Another approach for title case by Sir Asharib;
+// console.log(myName.charAt(0).toUpperCase() + myName.slice(1).toLowerCase()); // Shows the name with the First Letter Big
