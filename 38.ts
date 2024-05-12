@@ -8,5 +8,5 @@ function describe_city(city: string, country: string = 'Pakistan'): void {
 
 // Calling the function for three different cities
 describe_city('Karachi'); // Karachi is in Pakistan
-describe_city('London', 'United Kingdom'); // London is in United Kingdom
+describe_city('Lahore',); // London is in United Kingdom
 describe_city('New York', 'USA'); // New York is in USA

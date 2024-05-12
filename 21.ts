@@ -32,7 +32,7 @@ let  Shangha:uni = {
     officialLanguage : " "
 }
 
-let countries3: any[] = [ california, france,Shangha ]
+let countries3: any[] = [ california , france , Shangha ]
  console.log(countries3)
 
 

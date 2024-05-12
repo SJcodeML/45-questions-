@@ -17,3 +17,5 @@ animals1.forEach((animal, index) => {
 
 console.log("Dogs are known for their loyalty and playful nature, making them popular companions for people of all ages. Cats are independent and curious animals that often form strong bonds with their owners. Rabbits are gentle and social creatures that can make wonderful pets with proper care and attention."
 )
+
+

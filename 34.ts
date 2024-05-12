@@ -19,3 +19,4 @@ for (let pizza of fav_Pizza) {
 }
 
 console.log("Pizza is a beloved dish enjoyed worldwide. From its crispy crust to its gooey cheese, it tantalizes taste buds. Whether topped with pepperoni, veggies, or pineapple, theres a slice for everyone!, I really love PIZZA")
+

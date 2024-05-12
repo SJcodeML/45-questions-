@@ -11,6 +11,7 @@ if (userNames.length === 0){
     console.log("we have many users")
 }
 
+//making list empty:
 userNames = [];
 
 console.log(userNames);
