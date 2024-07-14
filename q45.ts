@@ -6,25 +6,22 @@
 
 
 
-// function createCar(manufacturer: string, model: string, options: { [key: string]: any }): object {
-//     const car: { [key: string]: any } = { manufacturer, model, ...options };
-//     return car;
-// }
-
-// // Call the function with required information and additional properties
-// const myCar = createCar("Toyota", "Camry",  { color: "blue", year: 2022});
-
-// // Print the returned object
-// console.log(myCar);
-
-
-let chars:string[]=["A", "B" , "C" , "D", "E"];
-let number1 : number[] =[1,2,3,4,5,6];
-let bol:boolean[]=[false,true];
-function isExistNumber<T>(item:T , list:T[]): Boolean {
-    return list.includes(item);
+function createCar(manufacturer: string, model: string, options: { [key: string]: any }): object {
+    const car: { [key: string]: any } =
+    {
+        manufacturer:manufacturer,
+        model:model,
+        ...options
+    }
+                  
+          
+    return car;
 }
 
-console.log(isExistNumber<number>(3 ,number1 ));
-console.log(isExistNumber<string>("v" ,chars ));
-console.log(isExistNumber<boolean>(false,bol ));
+// Call the function with required information and additional properties
+const myCar = createCar("Toyota", "Camry",  { color: "blue", year:["2022", 45] });
+
+// Print the returned object
+console.log(myCar);
+
+
