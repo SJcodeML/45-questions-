@@ -22,3 +22,14 @@ const alien_color2: string = 'yellow';
 if (alien_color2 === 'green') {
     console.log("The player just earned 5 points.");
 }
+
+
+// Taking colors from array of string 
+const colorsss :string[] =["red","green","yellow"]
+if (colorsss.includes("purple")){
+    console.log("player has just earned 5 points");
+    
+}else {
+    console.log("sorry You are failed ");
+    
+}
