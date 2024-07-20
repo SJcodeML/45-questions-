@@ -26,10 +26,10 @@ if (alien_color2 === 'green') {
 
 // Taking colors from array of string 
 const colorsss :string[] =["red","green","yellow"]
-if (colorsss.includes("purple")){
+if (colorsss.includes("red")){
     console.log("player has just earned 5 points");
     
 }else {
-    console.log("sorry You are failed ");
+    console.log("you have earned 10 points ");
     
 }
